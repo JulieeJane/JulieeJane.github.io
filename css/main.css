@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto:wght@300;400&display=swap');
+
+@import url('./themes/theme.css');
+
+@import url('./utility/flex.css');
+@import url('./utility/material-icons.css');
+@import url('./utility/vectors.css');
+
+@import url('./layout/body.grid.css');
+@import url('./layout/hobbies.grid.css');
+@import url('./layout/main.grid.css');
+@import url('./layout/profile.grid.css');
+@import url('./layout/section.grid.css');
+@import url('./layout/user.grid.css');
+
+@import url('./components/sidebar.css');
+@import url('./components/story.css');
+@import url('./components/user.css');
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+.body{
+  background-color: rgb(11, 11, 11);
+  font-family: Bebas Neue-cursive;
+color: aliceblue;
+}
+.sidebar{
+  background-color: palevioletred;
+
+}
+
+.story--title{
+  color: palevioletred;
+  font-family: fantasy;
+}
+.story--paragraph{
+  font-family:Arial, Helvetica, sans-serif
+
+}
+.hobbies--name,.hobbies--title{
+  font-family: fantasy;
+  color: palevioletred;
+  margin: revert;
+}
+
+.story--paragraph{
+  color: aliceblue;
+}
+.hobbies--description{
+  color: black;
+}
+.user--nombre, .user--title{
+  color: black;
+    font-family: fantasy;
+}
+.user{
+  inline-size: 30vw;
+}
